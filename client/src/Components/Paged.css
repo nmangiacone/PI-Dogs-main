@@ -1,0 +1,23 @@
+.pagedContainer {
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btn {
+    padding: 7px;
+    border: 2px #fff;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #0b756f , rgb(29, 37, 89));
+    color: #fff ;
+    cursor: pointer;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+
+  .btn:hover {
+    background: #9c86f9;
+  }
+
+  

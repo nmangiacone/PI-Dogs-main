@@ -1,0 +1,26 @@
+.home{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to right, #3417aa, #9c86f9);
+}
+
+body{
+    background: linear-gradient(to right, #3417aa, #9c86f9);
+}
+
+.cardContainer {
+    display: flex;
+    -webkit-box-pack: center;
+    place-content: center;
+    align-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cardHome{
+    margin: 0 5px 0 5px;
+}
+

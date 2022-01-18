@@ -1,0 +1,49 @@
+.landingpage {
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    height: 100%; 
+    position:fixed
+}
+
+.bkg {
+    position: absolute;
+    backdrop-filter: blur(16px);
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #3417aa, #9c86f9);
+}
+
+.title {
+    color: #0bd4c1;
+    flex-direction: column;
+    font-size: 100px;
+    text-align: center;
+}
+
+.buttonPosition{
+    margin-top: -40px;
+    margin-left: 0%;
+} 
+
+.button {
+    background-color: transparent;
+    flex-direction: column;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 9999px;
+    border: #fff solid 3px;
+    padding: 25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #9c86f9;
+    color: #fff;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+}
+
