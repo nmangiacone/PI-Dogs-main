@@ -3,7 +3,7 @@ import "./Paged.css";
 
 const Paged = ({ dogsPerPage, allDogs, paginado }) => {
   const pageNumbers = [];
-  const top = Math.ceil(allDogs.length / dogsPerPage); // --> calculo la cantidad de páginas que voy a tener en función de la cantidad de personajes
+  const top = Math.ceil(allDogs.length / dogsPerPage);
   for (let i = 1; i < top + 1; i++) {
     pageNumbers.push(i);
   }
