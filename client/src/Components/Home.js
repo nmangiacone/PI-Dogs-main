@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
 import "./Home.css";
+import img from "../Img/spinner.gif";
 import {
   getAllDogs,
   getTemperaments,
@@ -107,7 +108,7 @@ const Home = () => {
                             </div>
                         )
                     })
-                  : <p></p>
+                  : <div className="imgSpinner"><img src={img} alt="loading"/></div>
                   }
             </div>
         </div>

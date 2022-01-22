@@ -1,5 +1,5 @@
 .divDetail{
-    background: linear-gradient(to right, #3417aa, #9c86f9);
+    background-color: rgb(29, 37, 89);
     width: 100%;
     position: absolute;
     display: flex;
@@ -9,7 +9,7 @@
 }
 
 .buttonHome1{
-    background-color: rgb(29, 37, 89);;
+    background-color: #6f4ef6;
     float:none;
     font-size: medium;
     font-weight: bold;
@@ -25,6 +25,7 @@
 }
 .buttonHome1:hover{
     background-color: #9c86f9;
+    color: #fff;
 }
 #home{
     margin-left: 40px
@@ -60,4 +61,10 @@
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 30px
+}
+
+.imgSpinner{
+    display:grid;
+    place-items: center;
+    height: 600px;
 }

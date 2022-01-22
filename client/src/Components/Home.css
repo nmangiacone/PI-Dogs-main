@@ -4,9 +4,9 @@
     background: linear-gradient(to right, #3417aa, #9c86f9);
 }
 
-body{
+/* body{
     background: linear-gradient(to right, #3417aa, #9c86f9);
-}
+} */
 
 .cardContainer {
     display: flex;
@@ -24,3 +24,8 @@ body{
     margin: 0 5px 0 5px;
 }
 
+.imgSpinner{
+    display:grid;
+    place-items: center;
+    height: 600px;
+}
